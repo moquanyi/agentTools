@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+eval-env/
+
+# Models and data
+*.bin
+*.safetensors
+models/
+checkpoints/
+data/
+*.pkl
+*.cache
+
+# Logs
+*.log
+logs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Results
+result/
+results/
+output/
+*.json
